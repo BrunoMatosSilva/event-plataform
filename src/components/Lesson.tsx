@@ -21,13 +21,13 @@ export function Lesson(props: LessonProps) {
                 {availableAtDateFormatted}
             </span>
 
-            <div className="rounded border border-gray-500 p-4 mt-2">
+            <div className="rounded border border-gray-500 p-4 mt-2 hover:border-purple-500 transition-colors">
                 <header className="flex item-center justify-between">
 
                     {isLessonAvailable ? (
-                        <span className="text-sm text-blue-500 font-medium flex items-center gap-2">
+                        <span className="text-sm text-purple-500 font-medium flex items-center gap-2 ">
                             <CheckCircle size={20} />
-                            Conteudo liberado
+                            Conteúdo liberado
                         </span>
                     ) : (
                         <span className="text-sm text-orange-500 font-medium flex items-center gap-2">
@@ -36,7 +36,7 @@ export function Lesson(props: LessonProps) {
                         </span>
                     )}
 
-                    <span className="text-xs rounded py-[0.125rem] px-2 text-white border border-green-300 font-bold">
+                    <span className="text-xs rounded py-[0.125rem] px-2 text-white border border-purple-400 font-bold">
                         {props.type === 'live' ? 'AO VIVO' : 'AULA PRÁTICA'}
                     </span>
                 </header>
