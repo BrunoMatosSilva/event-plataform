@@ -9,6 +9,7 @@ interface LessonProps {
     slug: string;
     availableAt: Date;
     type: 'live' | 'class';
+    onClick?: () => void;
 }
 
 export function Lesson(props: LessonProps) {

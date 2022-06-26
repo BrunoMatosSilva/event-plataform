@@ -39,7 +39,7 @@ export function Video(props: VideoProps) {
             </div>
 
             <div className="p-8 max-w-[1100px] mx-auto">
-                <div className="flex items-start gap-16">
+                <div className="flex sm:items-start flex-col sm:flex-row gap-16">
                     <div className="flex-1">
                         <h1 className="text-2xl font-bold">
                             {data.lesson.title}
@@ -85,7 +85,7 @@ export function Video(props: VideoProps) {
                     </div>
                 </div>
 
-                <div className="gap-8 mt-20 grid grid-cols-2">
+                <div className="gap-8 mt-20 grid grid-cols-1 sm:grid-cols-2">
                     <a
                         href="https://devacademy.com.br/ebooks/react-hooks/"
                         target="blank"
