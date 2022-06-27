@@ -15,14 +15,14 @@ export function Header() {
                 <header className="sm:w-full py-5 flex w-full justify-between px-4 items-center sm:justify-center bg-gray-700">
                     <Logo />
 
-                    <Popover.Button className="flex items-center" >
+                    <Popover.Button className="flex items-center ml-2" >
                         Aulas {!modalOpen ? <List size={32} className="sm:hidden cursor-pointer text-blue-500" aria-hidden="true" onClick={() => setModalOpen(true)} />
                             : <X size={32} className="sm:hidden cursor-pointer text-blue-500" onClick={() => setModalOpen(false)} />}
                     </Popover.Button>
                 </header>
 
                 <Popover.Panel className="z-[999] absolute bg-gray-900 h-[150vh]">
-                    <span className="font-bold text-2xl pb-6 mb-6 border-b border-gray-500 block">
+                    <span className="font-bold text-2xl pb-6 mb-6 border-b border-gray-500 block ml-2">
                         Cronograma de aulas
                     </span>
                     <div className="flex flex-col gap-8 m-2">
