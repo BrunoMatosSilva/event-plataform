@@ -1,4 +1,4 @@
-# GraphQL 📋🎥
+# GraphQL 📋
 
 <img src="https://user-images.githubusercontent.com/69808542/175949636-3941301a-ab23-4862-b90a-97b66aa8b863.PNG" width="2000" align="center" />
 
