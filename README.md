@@ -23,6 +23,7 @@ Ferramentas que foram novidades para mim, foi o uso do Apollo junto do GraphQL q
 ## 🎨 Telas do projeto
 
 <img src="https://user-images.githubusercontent.com/69808542/175950122-f8ad8694-c511-427b-9e2b-dee210fe7733.PNG" width="2000" align="center" />
+<img src="https://user-images.githubusercontent.com/69808542/175989462-124f108f-c67e-4c4f-81cd-bbde18b5188a.PNG" width="2000" align="center" />
 
 &nbsp;
 
